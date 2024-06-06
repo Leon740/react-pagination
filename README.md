@@ -1,9 +1,12 @@
 # React Pagination App
 
-https://react.dev/
-https://www.typescriptlang.org/
-https://storybook.js.org/
-https://tailwindcss.com/
+- https://react.dev/
+- https://www.typescriptlang.org/
+- https://storybook.js.org/
+- https://tailwindcss.com/
+
+See examples and components /src/components/Examples
+![Example](public/example.png 'Example')
 
 # Getting Started with Create React App
 
