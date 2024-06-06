@@ -1,7 +1,5 @@
 # React Pagination
 
-# Motivation
-
 This app is a set of components created for you to save your time with working on pagination.
 
 # Solution
