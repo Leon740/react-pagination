@@ -1,5 +1,5 @@
-import postsData from 'data/posts.mock.json';
-// import { Pagination, PaginationPropsI } from 'components';
+import POSTS from '../../public/posts.mock.json';
+import { PaginationPropsI } from 'components';
 
 export interface RecordI {
   id: number;
@@ -9,11 +9,6 @@ export interface RecordI {
   body?: string;
 }
 
-// export function PaginationMock(props: PaginationPropsI<RecordI>) {
-//   const { children } = props;
-//   return <Pagination<RecordI> {...props}>{children}</Pagination>;
-// }
-
-export const paginationPropsMock = {
-  recordsData: postsData.posts
+export const paginationPropsMock: Omit<PaginationPropsI<RecordI>, 'children'> = {
+  recordsData: POSTS
 };
