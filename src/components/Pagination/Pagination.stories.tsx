@@ -34,7 +34,7 @@ const handleSearch = (query: string): RecordI[] => {
   );
 };
 
-export const PaginationHandleSearch: Story = {
+export const HandleSearch: Story = {
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
   args: {
