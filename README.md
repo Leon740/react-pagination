@@ -133,14 +133,14 @@ function Example() {
                           <h3 className="text-red-600">{id}</h3>
                           <h4 className="text-lg">
                             {isSearchQuery ? (
-                              // <span
-                              //   dangerouslySetInnerHTML={{
-                              //     __html: sanitizeStringFn(title).replace(
-                              //       sanitizeStringFn(searchQuery),
-                              //       `<span class='bg-yellow-500'>${searchQuery}</span>`
-                              //     )
-                              //   }}
-                              // />
+                              <span
+                                dangerouslySetInnerHTML={{
+                                  __html: sanitizeStringFn(title).replace(
+                                    sanitizeStringFn(searchQuery),
+                                    <span class="bg-yellow-500">${searchQuery}</span>
+                                  )
+                                }}
+                              />
                             ) : (
                               title
                             )}
