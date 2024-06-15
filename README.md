@@ -81,7 +81,7 @@ interface RecordI {
   body?: string;
 }
 
-export function Example() {
+function Example() {
   const { data: POSTS, isLoading, error } = useFetch<RecordI[]>('/posts.mock.json');
 
   return (
@@ -134,7 +134,6 @@ export function Example() {
                           <h4 className="text-lg">
                             {isSearchQuery ? (
                               <span
-                                // eslint-disable-next-line react/no-danger
                                 dangerouslySetInnerHTML={{
                                   __html: sanitizeStringFn(title).replace(
                                     sanitizeStringFn(searchQuery),
