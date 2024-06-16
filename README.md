@@ -15,8 +15,11 @@ Many time consuming work to make a pagination.
 
 Set of isolated components.
 
-![Example](https://github.com/Leon740/react-pagination/blob/master/public/example.png 'Example')
+![Pagination Example](https://github.com/Leon740/react-pagination/blob/master/public/example.png 'Pagination Example')
 
+# Components
+
+You can use the created components, or create your own and consume a context.
 Pagination /
 
 - Search
@@ -27,11 +30,7 @@ Pagination /
 - --- PrevButton
 - --- NextButton
 
-# Storybook Playground
-
-[https://leon740.github.io/react-pagination/storybook-static/](https://leon740.github.io/react-pagination/storybook-static/)
-
-PaginationContext
+# PaginationContext
 
 ```ts
 interface PaginationPropsI<Record> {
@@ -63,6 +62,10 @@ const contextValue = {
   recordsLength: foundRecords.length
 };
 ```
+
+# Storybook Playground
+
+[https://leon740.github.io/react-pagination/storybook-static/](https://leon740.github.io/react-pagination/storybook-static/)
 
 # Example
 
