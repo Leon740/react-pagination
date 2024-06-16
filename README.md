@@ -131,20 +131,7 @@ function Example() {
                         <li key={`post_${id}`} className="p-4 rounded-lg border border-black">
                           <h2 className="text-yellow-500">{index}</h2>
                           <h3 className="text-red-600">{id}</h3>
-                          <h4 className="text-lg">
-                            {isSearchQuery ? (
-                              <span
-                                dangerouslySetInnerHTML={{
-                                  __html: sanitizeStringFn(title).replace(
-                                    sanitizeStringFn(searchQuery),
-                                    <span class="bg-yellow-500">${searchQuery}</span>
-                                  )
-                                }}
-                              />
-                            ) : (
-                              title
-                            )}
-                          </h4>
+                          <h4 className="text-lg">{isSearchQuery ? title : title}</h4>
                         </li>
                       ))}
                     </ul>

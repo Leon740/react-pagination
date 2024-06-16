@@ -64,11 +64,10 @@ export function Example() {
                           <h4 className="text-lg">
                             {isSearchQuery ? (
                               <span
-                                // eslint-disable-next-line react/no-danger
                                 dangerouslySetInnerHTML={{
                                   __html: sanitizeStringFn(title).replace(
                                     sanitizeStringFn(searchQuery),
-                                    `<span class='bg-yellow-500'>${searchQuery}</span>`
+                                    `<span class="bg-yellow-500">${searchQuery}</span>`
                                   )
                                 }}
                               />
