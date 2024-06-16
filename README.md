@@ -15,6 +15,8 @@ Many time consuming work to make a pagination.
 
 Set of isolated components.
 
+![Example](https://github.com/Leon740/react-pagination/blob/master/public/example.png 'Example')
+
 Pagination /
 
 - Search
@@ -61,9 +63,6 @@ const contextValue = {
   recordsLength: foundRecords.length
 };
 ```
-
-See examples and components /src/components/Examples
-![Example](https://github.com/Leon740/react-pagination/blob/master/public/example.png 'Example')
 
 # Example
 
