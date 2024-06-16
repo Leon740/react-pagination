@@ -12,7 +12,11 @@ interface RecordI {
 }
 
 export function Example() {
-  const { data: POSTS, isLoading, error } = useFetch<RecordI[]>('/posts.mock.json');
+  const {
+    data: POSTS,
+    isLoading,
+    error
+  } = useFetch<RecordI[]>('https://leon740.github.io/react-pagination/public/posts.mock.json');
 
   return (
     <div className="container px-8 mx-auto">

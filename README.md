@@ -81,7 +81,7 @@ interface RecordI {
   body?: string;
 }
 
-function Example() {
+export function Example() {
   const { data: POSTS, isLoading, error } = useFetch<RecordI[]>('/posts.mock.json');
 
   return (
