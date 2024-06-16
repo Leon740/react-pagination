@@ -19,7 +19,7 @@ Set of isolated components.
 
 # Components
 
-You can use the created components, or create your own and consume a context.
+You can use the created components, or create your own and consume a context.<br>
 Pagination /
 
 - Search
@@ -171,9 +171,9 @@ export function Example() {
 }
 ```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 - yarn storybook
 - yarn start
